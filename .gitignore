@@ -1,12 +1,5 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
 
-# Compiled Dynamic libraries
-*.so
+companies
+*.json
+node_modules/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
