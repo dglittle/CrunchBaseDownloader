@@ -33,7 +33,7 @@ Fiber(function () {
         var u = 'http://api.crunchbase.com/v/1/company/' + x + '.js'
         fs.writeFile('companies/' + x + '.json', wget(u))
         
-        sleep(1)
+        sleep(2)
     }
     
     
