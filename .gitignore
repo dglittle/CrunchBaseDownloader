@@ -2,4 +2,5 @@
 companies
 *.json
 node_modules/
+error.txt
 
