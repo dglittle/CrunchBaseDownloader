@@ -18,7 +18,7 @@ Fiber(function () {
     // download companies json data
     console.log("starting download...")
     var a = wget("http://api.crunchbase.com/v/1/companies.js")
-    fs.writeFile('companies.json', a)
+    fs.writeFileSync('companies.json', a)
     console.log("ending download...")
     
     // load companies json into variable
