@@ -43,7 +43,7 @@ Fiber(function () {
             console.log('downloading ' + x) 
             var u = 'http://api.crunchbase.com/v/1/company/' + x + '.js'
             fs.writeFileSync(filename, wget(u))
-            sleep(2)
+            //sleep(2)
         }
     } catch (e) {
         fs.writeFileSync('error.txt', '' + e)
