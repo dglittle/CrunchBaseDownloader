@@ -16,7 +16,7 @@ Fiber(function () {
     
     s3 = new (require('./s3').s3)(process.argv[2], process.argv[3], process.argv[4])
     
-    s3.put('crunchbase.zip', fs.readFileSync('./crunchbase.zip'), true)
+    s3.put('/crunchbase.zip', fs.readFileSync('./crunchbase.zip'), true)
     
 }).run()
 
